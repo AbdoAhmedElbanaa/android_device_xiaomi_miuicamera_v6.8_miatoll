@@ -1,0 +1,16 @@
+# Google Lens
+ro.com.google.lens.oem_camera_package=com.android.camera
+
+# Framework allowlists
+persist.vendor.camera.privapp.list=com.android.camera,org.lineageos.aperture
+
+# MiuiCamera / Leica
+ro.miui.notch=1
+ro.miui.ui.version.code=816
+ro.miui.ui.version.name=V816
+
+# Low RAM optimization
+ro.config.low_ram.threshold_gb=6
+
+# Privapp permissions logging (prevent bootloop on permission denial)
+ro.control_privapp_permissions=log

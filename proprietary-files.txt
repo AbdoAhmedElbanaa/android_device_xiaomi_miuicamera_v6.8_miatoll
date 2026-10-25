@@ -1,0 +1,18 @@
+# All unpinned blobs below are extracted from MIUI Camera v6.8 (HyperOS / Android 16/17)
+
+# System Libraries
+system/lib64/libdoc_photo.so;FIX_SONAME
+system/lib64/libdoc_photo_c++_shared.so;FIX_SONAME
+system/lib64/libgallery_arcsoft_dualcam_refocus.so;FIX_SONAME
+system/lib64/libgallery_arcsoft_portrait_lighting.so;FIX_SONAME
+system/lib64/libgallery_arcsoft_portrait_lighting_c.so;FIX_SONAME
+system/lib64/libgallery_mpbase.so;FIX_SONAME
+system/lib64/libmibokeh_gallery.so
+system/lib64/librefocus.so;DISABLE_CHECKELF
+system/lib64/librefocus_mibokeh.so
+system/lib64/libcamera_algoup_jni.xiaomi.so;SYMLINK=system/priv-app/MiuiCamera/lib/arm64/libcamera_algoup_jni.xiaomi.so
+system/lib64/libcamera_mianode_jni.xiaomi.so;SYMLINK=system/priv-app/MiuiCamera/lib/arm64/libcamera_mianode_jni.xiaomi.so
+system/lib64/libcamera_jpegutil_jni.xiaomi.so;SYMLINK=system/priv-app/MiuiCamera/lib/arm64/libcamera_jpegutil_jni.xiaomi.so|d159aebabed57516153a2d203d6104c80b4c1a95
+
+# MIUI Camera v6.8 APK
+system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Camera2,Flash|d6f2e4a3a519447b31d9442ab9695a1d16f5012d
