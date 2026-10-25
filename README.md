@@ -9,7 +9,7 @@ Device configuration for Xiaomi MIUI Camera (MIUI Camera v6.8 - Build 68001770.0
 - **Version:** MIUI Camera v6.8
 - **Build Version:** 68001770.0
 - **Target OS:** Android 16 & Android 17 (A16 / A17 Only)
-- **Camera Port & Builds:** [ℌ𝔞𝔪𝔦𝔡𝔬](https://github.com/Hamido)
+- **Camera Port & Builds:** [ℌ𝔞𝔪𝔦𝔡𝔬]
 - **Maintainer:** [Abdo Ahmed Elbanaa](https://github.com/AbdoAhmedElbanaa)
 
 ## Features
