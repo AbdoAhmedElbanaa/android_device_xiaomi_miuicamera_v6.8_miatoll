@@ -1,3 +1,7 @@
 libcamera_algoup_jni.xiaomi.so
 libcamera_mianode_jni.xiaomi.so
 libcamera_jpegutil_jni.xiaomi.so
+libmorpho_memory_allocator.so
+libmorpho_panorama_gp3.so
+libmorpho_sensor_fusion.so
+libcamera_960_mpbase.so

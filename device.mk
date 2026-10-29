@@ -7,6 +7,10 @@
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/miuicamera_v6.8_miatoll/miuicamera_v6.8_miatoll-vendor.mk)
 
+# Shims
+PRODUCT_PACKAGES += \
+    libgui_shim_miuicamera
+
 # Priv-app permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-mimoji.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mimoji.xml \

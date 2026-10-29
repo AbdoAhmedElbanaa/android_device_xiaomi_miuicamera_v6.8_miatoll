@@ -29,6 +29,10 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     ('system/lib64/libcamera_algoup_jni.xiaomi.so', 'system/lib64/libcamera_mianode_jni.xiaomi.so'): blob_fixup()
         .add_needed('libgui_shim_miuicamera.so'),
+    'system/lib64/libcamera_jpegutil_jni.xiaomi.so': blob_fixup()
+        .remove_needed('libhidltransport.so'),
+    'system/lib64/libcamera_960_mpbase.so': blob_fixup()
+        .fix_soname(),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
